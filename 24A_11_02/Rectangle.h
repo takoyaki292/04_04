@@ -8,6 +8,8 @@ public:
 	void Draw() override;
 private:
 
-	float radius_;
+	float height_;
+	float width_;
+	
 	float size_;
 };

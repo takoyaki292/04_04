@@ -17,8 +17,7 @@ Circle::Circle()
 //サイズを求めている
 void Circle::Size()
 {
-	//円周率を求めている
-	size = (radius_*2)*(float)M_PI;
+	size = (float)M_PI*radius_*radius_;
 }
 //出力する
 void Circle::Draw()

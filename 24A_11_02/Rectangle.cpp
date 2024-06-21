@@ -2,15 +2,17 @@
 #include<stdio.h>
 Rectangle::Rectangle()
 {
-	//半径が2.0f
-	float radius = 2.0f;
-	radius_ = radius;
+	float width=3.0f;
+	float height = 3.0f;
+	width_ = width;
+	height_ = height;
 }
 
 //サイズを求めている
 void Rectangle::Size()
 {
-	size_ = radius_ * radius_;
+	//面積を求めている
+	size_ = width_ * height_;
 }
 
 //出力をする
